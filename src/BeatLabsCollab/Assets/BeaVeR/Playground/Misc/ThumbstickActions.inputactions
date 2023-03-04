@@ -1,0 +1,52 @@
+{
+    "name": "ThumbstickActions",
+    "maps": [
+        {
+            "name": "Thumbsticks",
+            "id": "c823c7ef-5501-4c24-83da-335ec163d661",
+            "actions": [
+                {
+                    "name": "Scroll Vertically Discrete",
+                    "type": "Value",
+                    "id": "5a218750-e6c0-4410-abab-fbaa3c55eb36",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Scroll Vertically Analog",
+                    "type": "Value",
+                    "id": "55259b86-eb9a-4ffc-a787-ea5a32ef0832",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2627a29b-d8b0-49c5-935f-9b9a1bb0e74f",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll Vertically Discrete",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af5f2b1f-cbc3-44dd-b1a1-8b7bab9b0ec4",
+                    "path": "<OculusTouchController>/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll Vertically Analog",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

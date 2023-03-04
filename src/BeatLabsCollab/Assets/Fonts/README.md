@@ -1,0 +1,3 @@
+- https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/FontAssetsCreator.html
+- http://www.endmemo.com/unicode/unicodeconverter.php
+- https://www.online-toolz.com/tools/text-unicode-entities-convertor.php
