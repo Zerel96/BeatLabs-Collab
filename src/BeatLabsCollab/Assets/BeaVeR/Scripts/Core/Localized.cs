@@ -1,4 +1,4 @@
-﻿using BeaVeR.Models.BeatSaber;
+using BeaVeR.Models.BeatSaber;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +23,7 @@ namespace BeaVeR.Core
     //private static readonly SystemLanguage _ActualLanguage = GetActualLanguage(SystemLanguage.Japanese);
     //private static readonly SystemLanguage _ActualLanguage = GetActualLanguage(SystemLanguage.Romanian);
     //private static readonly SystemLanguage _ActualLanguage = GetActualLanguage(SystemLanguage.Finnish);
+    //private static readonly SystemLanguage _ActualLanguage = GetActualLanguage(SystemLanguage.Spanish);
 
     private static SystemLanguage GetActualLanguage(SystemLanguage language)
     {
@@ -151,7 +152,7 @@ namespace BeaVeR.Core
             { SystemLanguage.Russian, "Добро пожаловать в Beat Labs!" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Bienvenido a Beat Labs!" },
             { SystemLanguage.Romanian, "Bun venit la Beat Labs!" },
             { SystemLanguage.Finnish, "Tervetuloa Beat Labsiin!" },
             { SystemLanguage.Unknown, "mugh" },
@@ -216,11 +217,11 @@ Beat Labs - это бесплатная песочница, в которой м
               ".Trim()
             },
             { SystemLanguage.Spanish, @"
-traducir
+Beat Labs es un sandbox gratis y abierto para trastear entre diferentes mecanicas de juego e ideas para juegos de ritmo en VR.
 
-traducir
+Ahora mismo se centra en las mecanicas de Beat Saber pero eventualmente habrá varias modificaciones sobre como el juego se juega y se siente.
 
-traducir
+Mas información en la página del proyecto:
               ".Trim()
             },
             { SystemLanguage.Romanian, @"
@@ -258,7 +259,7 @@ mugh
             { SystemLanguage.Russian, "Приглашаем на наш Discord сервер" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Nos vemos en Discord:" },
             { SystemLanguage.Romanian, "Ne vedem pe Discord:" },
             { SystemLanguage.Finnish, "Nähdään Discordissa:" },
             { SystemLanguage.Unknown, "mugh" },
@@ -273,7 +274,7 @@ mugh
             { SystemLanguage.Russian, "Предисловие" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Atención" }, // no good translation for this. Attention would be the closest.
             { SystemLanguage.Romanian, "Atenție" }, // no good translation for this. Attention would be the closest.
             { SystemLanguage.Finnish, "Huomio" }, // this meant Attention, Vastuuvapautuslauseke would be straight translation but it is way too formal and not really fitting
             { SystemLanguage.Unknown, "mugh" },
@@ -324,9 +325,9 @@ Beat Labs не призван заменить, соперничать или ж
               ".Trim()
             },
             { SystemLanguage.Spanish, @"
-traducir
+Beat Labs no pretende remplazar, competir con o incluso replicar Beat Saber uno-a-uno. En concreto, es una herramienta de aprendizaje y experimentación para la comunidad.
 
-traducir
+Las canciones/mapas vienen de un origen externo que no esta afiliado a Beat Labs. ¡Gracias a ellos y a todos los beatmappers de por ahí!
               ".Trim()
             },
             { SystemLanguage.Romanian, @"
@@ -358,7 +359,7 @@ mugh
             { SystemLanguage.Russian, "Начнем!" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Adelante!" },
             { SystemLanguage.Romanian, "Hai să mergem!" },
             { SystemLanguage.Finnish, "Eikun Menoksi!" },
             { SystemLanguage.Unknown, "mugh" },
@@ -388,7 +389,7 @@ mugh
             { SystemLanguage.Russian, "Поиск" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Buscar" },
             { SystemLanguage.Romanian, "Căutare" },
             { SystemLanguage.Finnish, "Haku" },
             { SystemLanguage.Unknown, "mugh" },
@@ -403,7 +404,7 @@ mugh
             { SystemLanguage.Russian, "Введите текст ..." },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Introduce texto ..." },
             { SystemLanguage.Romanian, "Introduceți textul ..." },
             { SystemLanguage.Finnish, "Syötä Teksti ..." },
             { SystemLanguage.Unknown, "mugh" },
@@ -418,7 +419,7 @@ mugh
             { SystemLanguage.Russian, "Поиск Песен" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Buscar Canciones" },
             { SystemLanguage.Romanian, "Căutați melodii" },
             { SystemLanguage.Finnish, "Hae Kappaleita" },
             { SystemLanguage.Unknown, "mugh" },
@@ -433,7 +434,7 @@ mugh
             { SystemLanguage.Russian, "Поиск Плейлистов" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Buscar Playlists" },
             { SystemLanguage.Romanian, "Căutați playlisturi" },
             { SystemLanguage.Finnish, "Hae Soittolistoja" },
             { SystemLanguage.Unknown, "mugh" },
@@ -448,7 +449,7 @@ mugh
             { SystemLanguage.Russian, "Поиск" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Buscar" },
             { SystemLanguage.Romanian, "Caută" },
             { SystemLanguage.Finnish, "Hae" },
             { SystemLanguage.Unknown, "mugh" },
@@ -463,7 +464,7 @@ mugh
             { SystemLanguage.Russian, "Очистить" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Limpiar" },
             { SystemLanguage.Romanian, "Ștergeți" },
             { SystemLanguage.Finnish, "Tyhjennä" },
             { SystemLanguage.Unknown, "mugh" },
@@ -478,7 +479,7 @@ mugh
             { SystemLanguage.Russian, "Выбрать" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Seleccionar" },
             { SystemLanguage.Romanian, "Selectați" },
             { SystemLanguage.Finnish, "Valitse" },
             { SystemLanguage.Unknown, "mugh" },
@@ -493,7 +494,7 @@ mugh
             { SystemLanguage.Russian, "Песеня не выбрана" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "No hay una Canción Elegida" },
             { SystemLanguage.Romanian, "Nici-o melodie selectată" },
             { SystemLanguage.Finnish, "Ei Kappaletta Valittuna" },
             { SystemLanguage.Unknown, "mugh" },
@@ -508,7 +509,7 @@ mugh
             { SystemLanguage.Russian, "Плейлист не выбран" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "No hay una Playlist Elegida" },
             { SystemLanguage.Romanian, "Nici-un playlist selectat" },
             { SystemLanguage.Finnish, "Ei Soittolistaa Valittuna" },
             { SystemLanguage.Unknown, "mugh" },
@@ -523,7 +524,7 @@ mugh
             { SystemLanguage.Russian, "Нет песни" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "No hay Canción" },
             { SystemLanguage.Romanian, "Nici-o melodie" },
             { SystemLanguage.Finnish, "Ei Kappaletta" },
             { SystemLanguage.Unknown, "mugh" },
@@ -538,7 +539,7 @@ mugh
             { SystemLanguage.Russian, "Нет плейлиста" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "No hay Playlist" },
             { SystemLanguage.Romanian, "Nici-un playlist" },
             { SystemLanguage.Finnish, "Ei Soittolistaa" },
             { SystemLanguage.Unknown, "mugh" },
@@ -553,7 +554,7 @@ mugh
             { SystemLanguage.Russian, "Идет поиск ..." },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Buscando ..." },
             { SystemLanguage.Romanian, "Se caută ..." },
             { SystemLanguage.Finnish, "Hakee ..." },
             { SystemLanguage.Unknown, "mugh" },
@@ -568,7 +569,7 @@ mugh
             { SystemLanguage.Russian, "Скачивание ..." },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Descargando ..." },
             { SystemLanguage.Romanian, "Se descarcă ..." },
             { SystemLanguage.Finnish, "Lataa ..." },
             { SystemLanguage.Unknown, "mugh" },
@@ -583,7 +584,7 @@ mugh
             { SystemLanguage.Russian, "Загрузка ..." },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Cargando ..." },
             { SystemLanguage.Romanian, "Se încarcă ..." },
             { SystemLanguage.Finnish, "Lataa ..." },
             { SystemLanguage.Unknown, "mugh" },
@@ -598,7 +599,7 @@ mugh
             { SystemLanguage.Russian, "Результаты поиска песен" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Canciones Encontradas" },
             { SystemLanguage.Romanian, "Melodii găsite" },
             { SystemLanguage.Finnish, "Löytyneet Kappaleet" },
             { SystemLanguage.Unknown, "mugh" },
@@ -613,7 +614,7 @@ mugh
             { SystemLanguage.Russian, "Результаты поиска плейлистов" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Playlists Encontradas" },
             { SystemLanguage.Romanian, "Playlisturi găsite" },
             { SystemLanguage.Finnish, "Löytyneet Soittolistat" },
             { SystemLanguage.Unknown, "mugh" },
@@ -628,7 +629,7 @@ mugh
             { SystemLanguage.Russian, "ПЕСНИ" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "CANCIONES" },
             { SystemLanguage.Romanian, "MELODII" },
             { SystemLanguage.Finnish, "KAPPA\nLEET" },
             { SystemLanguage.Unknown, "mugh" },
@@ -643,7 +644,7 @@ mugh
             { SystemLanguage.Russian, "ПЛЕЙ\nЛИСТЫ" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "LISTAS" },
             { SystemLanguage.Romanian, "PLAYLIST\nURI" },
             { SystemLanguage.Finnish, "SOITTO\nLISTAT" },
             { SystemLanguage.Unknown, "mugh" },
@@ -658,7 +659,7 @@ mugh
             { SystemLanguage.Russian, "Сложность" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Dificultad" },
             { SystemLanguage.Romanian, "Dificultate" },
             { SystemLanguage.Finnish, "Vaikeustaso" },
             { SystemLanguage.Unknown, "mugh" },
@@ -673,7 +674,7 @@ mugh
             { SystemLanguage.Russian, "Режим игры" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Modo de Juego" },
             { SystemLanguage.Romanian, "Modul de joc" },
             { SystemLanguage.Finnish, "Peli Moodi" },
             { SystemLanguage.Unknown, "mugh" },
@@ -688,7 +689,7 @@ mugh
             { SystemLanguage.Russian, "Играть" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Jugar" },
             { SystemLanguage.Romanian, "Jucați" },
             { SystemLanguage.Finnish, "Pelaa" },
             { SystemLanguage.Unknown, "mugh" },
@@ -703,7 +704,7 @@ mugh
             { SystemLanguage.Russian, "Эксперт+" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Experto+" },
             { SystemLanguage.Romanian, "Expert+" },
             { SystemLanguage.Finnish, "Expertti+" },
             { SystemLanguage.Unknown, "mugh" },
@@ -718,7 +719,7 @@ mugh
             { SystemLanguage.Russian, "Эксперт" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Experto" },
             { SystemLanguage.Romanian, "Expert" },
             { SystemLanguage.Finnish, "Expertti" },
             { SystemLanguage.Unknown, "mugh" },
@@ -733,7 +734,7 @@ mugh
             { SystemLanguage.Russian, "Сложно" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Difícil" },
             { SystemLanguage.Romanian, "Greu" },
             { SystemLanguage.Finnish, "Vaikea" },
             { SystemLanguage.Unknown, "mugh" },
@@ -748,7 +749,7 @@ mugh
             { SystemLanguage.Russian, "Нормально" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Normal" },
             { SystemLanguage.Romanian, "Normal" },
             { SystemLanguage.Finnish, "Normaali" },
             { SystemLanguage.Unknown, "mugh" },
@@ -763,7 +764,7 @@ mugh
             { SystemLanguage.Russian, "Легко" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Fácil" },
             { SystemLanguage.Romanian, "Ușor" },
             { SystemLanguage.Finnish, "Helppo" },
             { SystemLanguage.Unknown, "mugh" },
@@ -778,7 +779,7 @@ mugh
             { SystemLanguage.Russian, "Классический" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Clásico" },
             { SystemLanguage.Romanian, "Clasic" },
             { SystemLanguage.Finnish, "Klassinen" },
             { SystemLanguage.Unknown, "mugh" },
@@ -793,7 +794,7 @@ mugh
             { SystemLanguage.Russian, "Релакс" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Relax" }, // like relaxing
             { SystemLanguage.Romanian, "Relaxare" }, //like relaxing
             { SystemLanguage.Finnish, "Rento Pilleri" },
             { SystemLanguage.Unknown, "mugh" },
@@ -808,7 +809,7 @@ mugh
             { SystemLanguage.Russian, "Тайминг ударов" }, // there is no good translation for this(
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Contrareloj" },
             { SystemLanguage.Romanian, "Atac de timp" },
             { SystemLanguage.Finnish, "Ajoitus Hyökkäys" },
             { SystemLanguage.Unknown, "mugh" },
@@ -823,7 +824,7 @@ mugh
             { SystemLanguage.Russian, "Пауза" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Pausa" },
             { SystemLanguage.Romanian, "Pauză" },
             { SystemLanguage.Finnish, "Tauko" },
             { SystemLanguage.Unknown, "mugh" },
@@ -838,7 +839,7 @@ mugh
             { SystemLanguage.Russian, "Уровень пройден" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Nivel Completado" },
             { SystemLanguage.Romanian, "Nivel terminat" },
             { SystemLanguage.Finnish, "Kappale Läpi!" }, // means "song cleared", makes more sense
             { SystemLanguage.Unknown, "mugh" },
@@ -853,7 +854,7 @@ mugh
             { SystemLanguage.Russian, "Меню" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Menú" },
             { SystemLanguage.Romanian, "Meniu" },
             { SystemLanguage.Finnish, "Valikko" },
             { SystemLanguage.Unknown, "mugh" },
@@ -868,7 +869,7 @@ mugh
             { SystemLanguage.Russian, "Продолжить" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Continuar" },
             { SystemLanguage.Romanian, "Reluă" },
             { SystemLanguage.Finnish, "Jatka" },
             { SystemLanguage.Unknown, "mugh" },
@@ -883,7 +884,7 @@ mugh
             { SystemLanguage.Russian, "Кол-во песен" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Número de Canciones" },
             { SystemLanguage.Romanian, "Număr de melodii" },
             { SystemLanguage.Finnish, "Kappaleita" },
             { SystemLanguage.Unknown, "mugh" },
@@ -898,7 +899,7 @@ mugh
             { SystemLanguage.Russian, "Средний счет" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Puntuación Media" },
             { SystemLanguage.Romanian, "Scorul mediu" }, //no good translation for average.. mediu in romanian means medie which is like a total of your notes at school.
             { SystemLanguage.Finnish, "Keskiarvo pisteet" },
             { SystemLanguage.Unknown, "mugh" },
@@ -913,7 +914,7 @@ mugh
             { SystemLanguage.Russian, "Просмотреть песни" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Ver Canciones" },
             { SystemLanguage.Romanian, "Vedeți melodiile" },
             { SystemLanguage.Finnish, "Näytä Kappaleet" },
             { SystemLanguage.Unknown, "mugh" },
@@ -928,7 +929,7 @@ mugh
             { SystemLanguage.Russian, "Плейлист" },
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "Playlist" },
             { SystemLanguage.Romanian, "Playlist" },
             { SystemLanguage.Finnish, "Soittolista" },
             { SystemLanguage.Unknown, "mugh" },
@@ -943,7 +944,7 @@ mugh
             { SystemLanguage.Russian, "Т" }, // as in 'Точность'
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "P" }, //As in 'Precisión'
             { SystemLanguage.Romanian, "P" }, //As in „precizie”
             { SystemLanguage.Finnish, "T" }, // as in 'Tarkkuus'
             { SystemLanguage.Unknown, "mugh" },
@@ -958,7 +959,7 @@ mugh
             { SystemLanguage.Russian, "У" }, // as in 'Удары'
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "A" }, // as in 'Aciertos'
             { SystemLanguage.Romanian, "L" }, // as in „Lovituri”
             { SystemLanguage.Finnish, "O" }, // as in 'Osumia'
             { SystemLanguage.Unknown, "mugh" },
@@ -973,7 +974,7 @@ mugh
             { SystemLanguage.Russian, "П" }, // as in 'Промахи'
             { SystemLanguage.Korean, "번역하다" },
             { SystemLanguage.Japanese, "訳す" },
-            { SystemLanguage.Spanish, "traducir" },
+            { SystemLanguage.Spanish, "F" }, // as in 'Fallos'
             { SystemLanguage.Romanian, "R" }, // as in „Ratări”
             { SystemLanguage.Finnish, "H" }, // as in 'Huteja'
             { SystemLanguage.Unknown, "mugh" },
